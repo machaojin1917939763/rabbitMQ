@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+  datasource:
+    username: root
+    password: machaojin
+    url: jdbc:mysql://localhost:3306/spring-boot?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 120.48.18.228
+    username: guest
+    password: guest
+    port: 5672
+    virtual-host: /
